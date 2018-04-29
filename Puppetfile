@@ -198,8 +198,8 @@ forge 'http://forge.puppetlabs.com'
 # mod 'profile',
 #   :git => 'https://github.com/tykeal/puppetserver-mod-profile.git'
 # 
-# mod 'role',
-#   :git => 'https://github.com/tykeal/puppetserver-mod-role.git'
+mod 'role',
+  :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git'
 
 mod 'local_fw',
   :git => 'https://github.com/tykeal/puppetserver-mod-local_fw.git'
