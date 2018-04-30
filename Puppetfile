@@ -99,8 +99,8 @@ forge 'http://forge.puppetlabs.com'
 # mod 'openstack/vswitch', '3.0.0'
 # 
 # mod 'pdxcat/nrpe', '2.1.1'
-# 
-# # Puppet community
+
+# Puppet community
 # mod 'puppet/archive',  '1.1.2'
 # mod 'puppet/confluence', '2.2.2'
 # mod 'puppet/jira', '3.1.0'
@@ -108,8 +108,9 @@ forge 'http://forge.puppetlabs.com'
 # mod 'puppet/mysql_java_connector', '2.2.0'
 # mod 'puppet/nginx', '0.5.0'
 # mod 'puppet/staging', '2.0.1'
-# 
-# # Puppetlabs
+mod 'puppet/r10k', '6.5.0'
+
+# Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
 # mod 'puppetlabs/apt', '2.2.2'
 # mod 'puppetlabs/concat', '2.2.0'
