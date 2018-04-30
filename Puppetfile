@@ -43,8 +43,8 @@ mod 'ghoneycutt/nfs', '2.0.0'
 # mod 'pam',
 #   :git => 'https://github.com/tykeal/puppet-module-pam.git',
 #   :ref => 'f604cd2a9c7e884acbc261c226420d862affe8cc'
-# mod 'ghoneycutt/rpcbind', '1.6.1'
-# mod 'ghoneycutt/types', '1.10.0'
+mod 'ghoneycutt/rpcbind', '1.7.0'
+mod 'ghoneycutt/types', '1.12.0'
 mod 'ghoneycutt/vim', '2.12.0'
 
 # # herculesteam
