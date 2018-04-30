@@ -32,7 +32,7 @@ forge 'http://forge.puppetlabs.com'
 # mod 'garethr/erlang', '0.3.0'
 mod 'gentoo/portage', '2.3.0'
 
-# # ghoneycutt
+# ghoneycutt
 # mod 'ghoneycutt/common', '1.6.0'
 # mod 'ghoneycutt/hosts', '2.4.0'
 # #mod 'ghoneycutt/nfs', :latest
@@ -50,8 +50,8 @@ mod 'gentoo/portage', '2.3.0'
 #   :ref => 'f604cd2a9c7e884acbc261c226420d862affe8cc'
 # mod 'ghoneycutt/rpcbind', '1.6.1'
 # mod 'ghoneycutt/types', '1.10.0'
-# mod 'ghoneycutt/vim', '2.11.0'
-# 
+mod 'ghoneycutt/vim', '2.12.0'
+
 # # herculesteam
 # mod 'herculesteam/augeasproviders_core', '2.1.3'
 # mod 'herculesteam/augeasproviders_shellvar', '2.2.1'
