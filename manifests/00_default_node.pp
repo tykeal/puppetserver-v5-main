@@ -3,10 +3,9 @@
 # All nodes should have a single role definition
 # That role should have all the appropriate profiles attached to it
 node default {
+  # We only accept a single role, no arrays. This is required to be set even if
+  # it's set in a site wide common.
   $role = lookup('role', String)
-  #$role = hiera('role')
-  # we only accept a single role, no arrays
-  #validate_string($role)
 
   if ($role == 'default') {
     # include our baseline role for default systems

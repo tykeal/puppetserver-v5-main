@@ -9,7 +9,6 @@ $_default_filebucket = {
   path   => false,
 }
 $hiera_filebucket = lookup('filebucket', Hash, 'first', $_default_filebucket)
-#$hiera_filebucket = hiera_hash('filebucket', $_default_filebucket)
 filebucket { 'main':
   server => $hiera_filebucket['server'],
   path   => $hiera_filebucket['path'],
