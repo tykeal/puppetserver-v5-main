@@ -7,6 +7,7 @@ defaults:
   # See https://docs.puppet.com/puppet/latest/environments.html for further details on environments.
   # datadir: data
   # data_hash: yaml_data
+  datadir: '/etc/puppetlabs/code/hieradata/production'
   lookup_key: eyaml_lookup_key
   options:
     gpg_gnupghome: '/etc/puppetlabs/gnupg'
