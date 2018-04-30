@@ -25,7 +25,7 @@ forge 'http://forge.puppetlabs.com'
 # mod 'croddy/make', '0.0.5'
 # mod 'darin/zypprepo', '1.0.2'
 # mod 'dalen/puppetdbquery', '2.2.0'
-# mod 'datacentred/external_facts', '1.1.0'
+mod 'datacentred/external_facts', '1.1.0'
 # mod 'dhoppe/screen', '1.1.1'
 # mod 'dprince/qpid', '1.0.3'
 # mod 'engage/uwsgi', '1.2.0'
@@ -74,11 +74,11 @@ mod 'ghoneycutt/vim', '2.12.0'
 # mod 'gitolite',
 #   :git => 'https://github.com/tykeal/puppet-gitolite.git',
 #   :ref => 'd88d406f07313cc7de2624a604d056ca2172a12a'
-# 
-# # kemra102
-# mod 'kemra102/auditd', '2.0.1'
-# mod 'kemra102/ius', '1.1.0'
-# 
+
+# kemra102
+mod 'kemra102/auditd', '2.2.0'
+mod 'kemra102/ius', '1.1.0'
+
 # mod 'maestrodev/wget', '1.7.3'
 # mod 'mkrakowitzer/deploy', '0.0.3'
 # # point to a git version so we can do some debugging to create some patches
