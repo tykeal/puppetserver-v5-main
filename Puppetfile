@@ -139,9 +139,6 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'rmueller/cron', '0.1.3'
 # mod 'rtyler/jenkins', '1.7.0'
 # 
-# # stm
-# mod 'stm/haveged', '0.2.0'
-# 
 # # saz
 # mod 'saz/dnsmasq', '1.2.0'
 # mod 'saz/memcached', '2.8.1'
@@ -150,7 +147,11 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'saz/ssh', '2.9.1'
 # mod 'saz/sudo', '3.1.0'
 # mod 'saz/timezone', '3.3.0'
-# 
+
+# simp
+mod 'simp/haveged', '0.4.5'
+mod 'simp/simplib', '3.9.0'
+
 # #mod 'srf/rkhunter', '0.1.4'
 # # temporary override
 # mod 'rkhunter',
