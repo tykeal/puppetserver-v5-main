@@ -33,14 +33,9 @@ mod 'datacentred/external_facts', '1.1.0'
 mod 'gentoo/portage', '2.3.0'
 
 # ghoneycutt
-# mod 'ghoneycutt/common', '1.6.0'
-# mod 'ghoneycutt/hosts', '2.4.0'
-# #mod 'ghoneycutt/nfs', :latest
-# # NOTE: last check (v1.11.2) still did not support EL7
-# # override forge module as it is broken for EL7
-# mod 'nfs',
-#   :git => 'https://github.com/ghoneycutt/puppet-module-nfs.git',
-#   :branch => 'el7'
+mod 'ghoneycutt/common', '1.7.0'
+mod 'ghoneycutt/hosts', '2.6.0'
+mod 'ghoneycutt/nfs', '2.0.0'
 # mod 'ghoneycutt/nsswitch', '1.4.0'
 # # fork of ghoneycutt/pam (was originally forked by herlo but since he isn't here
 # # anymore tykeal pulled a fork so we could pin to an LF employee till we can get
@@ -138,15 +133,15 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'richardc/datacat', '0.6.2'
 # mod 'rmueller/cron', '0.1.3'
 # mod 'rtyler/jenkins', '1.7.0'
-# 
-# # saz
+
+# saz
 # mod 'saz/dnsmasq', '1.2.0'
 # mod 'saz/memcached', '2.8.1'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
 # mod 'saz/ssh', '2.9.1'
 # mod 'saz/sudo', '3.1.0'
-# mod 'saz/timezone', '3.3.0'
+mod 'saz/timezone', '3.3.0'
 
 # simp
 mod 'simp/haveged', '0.4.5'
@@ -164,7 +159,9 @@ mod 'stahnma/epel', '1.3.0'
 # mod 'python',
 #   :git => 'https://github.com/stankevich/puppet-python.git',
 #   :ref => '4af8ebbad751320330d86c42fc65cfc1e4a2168c'
-# 
+
+mod 'stm/debconf', '2.1.0'
+
 # # thias
 # mod 'thias/libvirt', '1.0.0'
 # mod 'thias/sysctl', '1.0.6'
