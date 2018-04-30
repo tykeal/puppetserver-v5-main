@@ -156,8 +156,8 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'rkhunter',
 #   :git => 'https://github.com/mmz-srf/puppet-rkhunter.git',
 #   :ref => '803ebabed06c4052ec03afdc876604abb2ac136e'
-# 
-# mod 'stahnma/epel', '1.2.2'
+
+mod 'stahnma/epel', '1.3.0'
 # # need https://github.com/stankevich/puppet-python/pull/359
 # #mod 'stankevich/python', '1.18.2'
 # mod 'python',
