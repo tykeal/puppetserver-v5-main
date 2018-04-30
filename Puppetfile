@@ -195,9 +195,9 @@ forge 'http://forge.puppetlabs.com'
 # # custom modules
 # 
 # # correct User for gerrit.linuxfoundation.org
-# mod 'profile',
-#   :git => 'https://github.com/tykeal/puppetserver-mod-profile.git'
-# 
+mod 'profile',
+  :git => 'https://github.com/tykeal/puppetserver-v5-mod-profile.git'
+ 
 mod 'role',
   :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git'
 
