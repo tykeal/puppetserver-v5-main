@@ -58,9 +58,9 @@ mod 'ghoneycutt/vim', '2.12.0'
 #   :git => 'https://github.com/hubspotdevops/puppet-nexus',
 #   :ref => '7dffd1378f11da7c96122f8175980f7536a3c87f'
 # 
-# # inkblot
+# inkblot
 # mod 'inkblot/bind', '6.0.1'
-# mod 'inkblot/shorewall', '5.0.1'
+mod 'inkblot/shorewall', '5.1.0'
 # 
 # mod 'jhoblitt/nsstools', '2.0.0'
 # 
@@ -105,13 +105,13 @@ mod 'puppet/make', '2.0.0'
 # mod 'puppet/mysql_java_connector', '2.2.0'
 # mod 'puppet/nginx', '0.5.0'
 # mod 'puppet/staging', '2.0.1'
-mod 'puppet/r10k', '6.5.0'
+mod 'puppet/r10k', '6.5.1'
 
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
 # mod 'puppetlabs/apt', '2.2.2'
 mod 'puppetlabs/concat', '4.2.1'
-# mod 'puppetlabs/firewall', '1.8.1'
+mod 'puppetlabs/firewall', '1.12.0'
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/inifile', '2.2.1'
