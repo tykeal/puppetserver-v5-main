@@ -13,20 +13,20 @@ forge 'http://forge.puppetlabs.com'
 #   :git => 'https://github.com/siliconalchemy/bzed-letsencrypt.git',
 #   :ref => 'b29b64ce35390baa10a56c2c2a1c30a68e1e42c6'
 # 
-# # Camptocamp
+# Camptocamp
 # mod 'camptocamp/augeas', '1.5.1'
 # mod 'camptocamp/dell', '0.5.1'
 # mod 'camptocamp/openldap', '1.15.0'
 # mod 'camptocamp/openssl', '1.8.2'
 # mod 'camptocamp/postfix', '1.4.0'
 # mod 'camptocamp/puppetserver', '2.1.0'
-# mod 'camptocamp/selinux', '0.3.1'
+mod 'camptocamp/selinux', '0.3.1'
 # 
 # mod 'croddy/make', '0.0.5'
 # mod 'darin/zypprepo', '1.0.2'
 # mod 'dalen/puppetdbquery', '2.2.0'
 mod 'datacentred/external_facts', '1.1.0'
-# mod 'dhoppe/screen', '1.1.1'
+mod 'dhoppe/screen', '1.3.1'
 # mod 'dprince/qpid', '1.0.3'
 # mod 'engage/uwsgi', '1.2.0'
 # mod 'garethr/erlang', '0.3.0'
@@ -98,6 +98,7 @@ mod 'kemra102/ius', '1.1.0'
 # Puppet community
 # mod 'puppet/archive',  '1.1.2'
 # mod 'puppet/confluence', '2.2.2'
+mod 'puppet/extlib', '2.0.1'
 # mod 'puppet/jira', '3.1.0'
 # mod 'puppet/mcollective', '2.3.0'
 mod 'puppet/make', '2.0.0'
