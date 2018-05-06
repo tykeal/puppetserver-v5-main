@@ -140,7 +140,7 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'saz/memcached', '2.8.1'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
-# mod 'saz/ssh', '2.9.1'
+mod 'saz/ssh', '3.0.1'
 # mod 'saz/sudo', '3.1.0'
 mod 'saz/timezone', '3.3.0'
 
