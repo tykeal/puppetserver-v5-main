@@ -36,7 +36,7 @@ mod 'gentoo/portage', '2.3.0'
 mod 'ghoneycutt/common', '1.7.0'
 mod 'ghoneycutt/hosts', '2.6.0'
 mod 'ghoneycutt/nfs', '2.0.0'
-# mod 'ghoneycutt/nsswitch', '1.4.0'
+mod 'ghoneycutt/nsswitch', '1.7.0'
 mod 'ghoneycutt/pam', '2.33.0'
 # # fork of ghoneycutt/pam (was originally forked by herlo but since he isn't here
 # # anymore tykeal pulled a fork so we could pin to an LF employee till we can get
