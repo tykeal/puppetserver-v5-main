@@ -142,7 +142,7 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
 mod 'saz/ssh', '3.0.1'
-# mod 'saz/sudo', '3.1.0'
+mod 'saz/sudo', '5.0.0'
 mod 'saz/timezone', '3.3.0'
 
 # simp
