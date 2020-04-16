@@ -20,7 +20,7 @@ forge 'http://forge.puppetlabs.com'
 # mod 'camptocamp/openssl', '1.8.2'
 # mod 'camptocamp/postfix', '1.4.0'
 # mod 'camptocamp/puppetserver', '2.1.0'
-mod 'camptocamp/selinux', '0.3.1'
+mod 'camptocamp/selinux', '0.5.0'
 # 
 # mod 'croddy/make', '0.0.5'
 # mod 'darin/zypprepo', '1.0.2'
@@ -30,23 +30,17 @@ mod 'dhoppe/screen', '1.3.1'
 # mod 'dprince/qpid', '1.0.3'
 # mod 'engage/uwsgi', '1.2.0'
 # mod 'garethr/erlang', '0.3.0'
-mod 'gentoo/portage', '2.3.0'
+# mod 'gentoo/portage', '2.3.0'
 
 # ghoneycutt
-mod 'ghoneycutt/common', '1.7.0'
+mod 'ghoneycutt/common', '1.9.0'
 mod 'ghoneycutt/hosts', '2.7.0'
-mod 'ghoneycutt/nfs', '2.0.0'
-mod 'ghoneycutt/nsswitch', '1.7.0'
-mod 'ghoneycutt/pam', '2.33.0'
-# # fork of ghoneycutt/pam (was originally forked by herlo but since he isn't here
-# # anymore tykeal pulled a fork so we could pin to an LF employee till we can get
-# # changes pushed into upstream
-# mod 'pam',
-#   :git => 'https://github.com/tykeal/puppet-module-pam.git',
-#   :ref => 'f604cd2a9c7e884acbc261c226420d862affe8cc'
-mod 'ghoneycutt/rpcbind', '1.7.0'
-mod 'ghoneycutt/types', '1.12.0'
-mod 'ghoneycutt/vim', '2.12.0'
+# mod 'ghoneycutt/nfs', '2.0.0'
+mod 'ghoneycutt/nsswitch', '1.8.0'
+mod 'ghoneycutt/pam', '3.5.0'
+# mod 'ghoneycutt/rpcbind', '1.7.0'
+mod 'ghoneycutt/types', '1.13.0'
+mod 'ghoneycutt/vim', '2.13.0'
 
 # # herculesteam
 # mod 'herculesteam/augeasproviders_core', '2.1.3'
@@ -73,7 +67,7 @@ mod 'inkblot/shorewall', '5.1.0'
 
 # kemra102
 mod 'kemra102/auditd', '2.2.0'
-mod 'kemra102/ius', '1.1.0'
+# mod 'kemra102/ius', '1.1.0'
 
 # mod 'maestrodev/wget', '1.7.3'
 # mod 'mkrakowitzer/deploy', '0.0.3'
@@ -83,55 +77,39 @@ mod 'kemra102/ius', '1.1.0'
 #   :git => 'https://github.com/tykeal/puppet-users.git',
 #   :ref => '47559be0582fe95951507ae4ce1c17b4eb9de907'
 # 
-# # Openstack
-# mod 'openstack/cinder', '7.0.0'
-# mod 'openstack/glance', '7.0.0'
-# mod 'openstack/horizon', '7.0.0'
-# mod 'openstack/keystone', '7.0.0'
-# mod 'openstack/neutron', '7.0.0'
-# mod 'openstack/nova', '7.0.0'
-# mod 'openstack/openstacklib', '7.0.0'
-# mod 'openstack/openstack_extras', '7.0.0'
-# mod 'openstack/vswitch', '3.0.0'
-# 
 # mod 'pdxcat/nrpe', '2.1.1'
 
 # Puppet community
-# mod 'puppet/archive',  '1.1.2'
-# mod 'puppet/confluence', '2.2.2'
-mod 'puppet/extlib', '2.0.1'
-# mod 'puppet/jira', '3.1.0'
-# mod 'puppet/mcollective', '2.3.0'
-mod 'puppet/make', '2.0.0'
-# mod 'puppet/mysql_java_connector', '2.2.0'
-# mod 'puppet/nginx', '0.5.0'
-# mod 'puppet/staging', '2.0.1'
+mod 'puppet/epel', '3.0.1'
+mod 'puppet/extlib', '5.0.0'
+mod 'puppet/make', '3.0.0'
+mod 'puppet/firewalld', '4.2.4'
 mod 'puppet/r10k', '6.5.1'
 
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
 mod 'puppetlabs/apt', '4.5.1'
-mod 'puppetlabs/concat', '4.2.1'
+mod 'puppetlabs/concat', '6.2.0'
 mod 'puppetlabs/firewall', '1.12.0'
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/host_core', '1.0.2'
-mod 'puppetlabs/inifile', '2.2.1'
-# mod 'puppetlabs/java', '1.6.0'
+# mod 'puppetlabs/host_core', '1.0.3'
+mod 'puppetlabs/inifile', '4.1.0'
+# mod 'puppetlabs/java', '6.2.0'
 # mod 'puppetlabs/java_ks', '1.4.1'
 # mod 'puppetlabs/mysql', '3.9.0'
-mod 'puppetlabs/ntp', '7.1.1'
+mod 'puppetlabs/ntp', '8.3.0'
 # mod 'puppetlabs/pe_gem', '0.2.0'
-mod 'puppetlabs/puppetdb', '6.0.2'
-mod 'puppetlabs/postgresql', '5.4.0'
+mod 'puppetlabs/puppetdb', '7.4.0'
+mod 'puppetlabs/postgresql', '6.4.0'
 # mod 'puppetlabs/rabbitmq', '5.5.0'
-mod 'puppetlabs/ruby', '1.0.0'
-mod 'puppetlabs/stdlib', '5.2.0'
+mod 'puppetlabs/ruby', '1.0.1'
+mod 'puppetlabs/stdlib', '6.3.0'
 # mod 'puppetlabs/tagmail', '2.1.1'
 # mod 'puppetlabs/tomcat', '1.5.0'
-mod 'puppetlabs/vcsrepo', '2.3.0'
+mod 'puppetlabs/vcsrepo', '3.1.0'
 # mod 'puppetlabs/xinetd', '2.0.0'
-# 
+
 # mod 'razorsedge/network', '3.8.0'
 # mod 'richardc/datacat', '0.6.2'
 # mod 'rmueller/cron', '0.1.3'
@@ -142,13 +120,13 @@ mod 'puppetlabs/vcsrepo', '2.3.0'
 # mod 'saz/memcached', '2.8.1'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
-mod 'saz/ssh', '3.0.1'
-mod 'saz/sudo', '5.0.0'
-mod 'saz/timezone', '3.3.0'
+mod 'saz/ssh', '6.1.0'
+mod 'saz/sudo', '6.0.0'
+mod 'saz/timezone', '5.2.1'
 
 # simp
-mod 'simp/haveged', '0.4.5'
-mod 'simp/simplib', '3.9.0'
+mod 'simp/haveged', '0.5.0'
+mod 'simp/simplib', '4.2.0'
 
 # #mod 'srf/rkhunter', '0.1.4'
 # # temporary override
@@ -156,14 +134,14 @@ mod 'simp/simplib', '3.9.0'
 #   :git => 'https://github.com/mmz-srf/puppet-rkhunter.git',
 #   :ref => '803ebabed06c4052ec03afdc876604abb2ac136e'
 
-mod 'stahnma/epel', '1.3.0'
+# mod 'stahnma/epel', '1.3.0'
 # # need https://github.com/stankevich/puppet-python/pull/359
 # #mod 'stankevich/python', '1.18.2'
 # mod 'python',
 #   :git => 'https://github.com/stankevich/puppet-python.git',
 #   :ref => '4af8ebbad751320330d86c42fc65cfc1e4a2168c'
 
-mod 'stm/debconf', '2.1.0'
+# mod 'stm/debconf', '2.1.0'
 
 # # thias
 # mod 'thias/libvirt', '1.0.0'
