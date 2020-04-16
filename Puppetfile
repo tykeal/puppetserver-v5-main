@@ -121,7 +121,11 @@ mod 'puppetlabs/vcsrepo', '3.1.0'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
 mod 'saz/ssh', '6.1.0'
-mod 'saz/sudo', '6.0.0'
+#mod 'saz/sudo', '6.0.0'
+# Use an fork until https://github.com/saz/puppet-sudo/issues/250 is fixed
+mod 'sudo',
+  :git => 'https://github.com/gcoxmoz/puppet-sudo.git',
+  :ref => '19f1f113602ea2db15a04890657b942c63590e63'
 mod 'saz/timezone', '5.2.1'
 
 # simp
