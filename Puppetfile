@@ -66,7 +66,11 @@ mod 'inkblot/shorewall', '5.1.0'
 #   :ref => 'd88d406f07313cc7de2624a604d056ca2172a12a'
 
 # kemra102
-mod 'kemra102/auditd', '2.2.0'
+#mod 'kemra102/auditd', '2.2.0'
+# Take upstream PR #64 to resolve issues with EL8
+mod 'auditd',
+  :git => 'https://github.com/kemra102/puppet-auditd',
+  :ref => '7e5a7af17b2aa58706b82e68e582679f3b211043'
 # mod 'kemra102/ius', '1.1.0'
 
 # mod 'maestrodev/wget', '1.7.3'
