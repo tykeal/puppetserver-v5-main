@@ -3,7 +3,7 @@ forge 'http://forge.puppetlabs.com'
 # # Modules from the Puppet Forge
 # 
 # # letsencrypt/dehydrated
-# #mod 'bzed/letsencrypt', '0.1.16'
+mod 'bzed/dehydrated', '0.1.7'
 # # JC - 2017/03/16
 # # using github fork until https://github.com/bzed/bzed-letsencrypt/pull/27 is
 # # merged which should allow setting the certs base_dir to something other than
@@ -87,8 +87,8 @@ mod 'auditd',
 mod 'puppet/epel', '3.0.1'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
-mod 'puppet/firewalld', '4.2.4'
-mod 'puppet/r10k', '6.5.1'
+# mod 'puppet/firewalld', '4.2.4'
+mod 'puppet/r10k', '8.3.0'
 
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
