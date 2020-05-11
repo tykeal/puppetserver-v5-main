@@ -4,14 +4,6 @@ forge 'http://forge.puppetlabs.com'
 # 
 # # letsencrypt/dehydrated
 mod 'bzed/dehydrated', '0.1.7'
-# # JC - 2017/03/16
-# # using github fork until https://github.com/bzed/bzed-letsencrypt/pull/27 is
-# # merged which should allow setting the certs base_dir to something other than
-# # /etc/letsencrypt which will fix SELinux headaches.
-# 
-# mod 'letsencrypt',
-#   :git => 'https://github.com/siliconalchemy/bzed-letsencrypt.git',
-#   :ref => 'b29b64ce35390baa10a56c2c2a1c30a68e1e42c6'
 # 
 # Camptocamp
 # mod 'camptocamp/augeas', '1.5.1'
@@ -42,19 +34,6 @@ mod 'ghoneycutt/pam', '3.5.0'
 mod 'ghoneycutt/types', '1.13.0'
 mod 'ghoneycutt/vim', '2.13.0'
 
-# # herculesteam
-# mod 'herculesteam/augeasproviders_core', '2.1.3'
-# mod 'herculesteam/augeasproviders_shellvar', '2.2.1'
-# 
-# #mod 'hubspot/nexus', '1.7.1'
-# # upgrade to latest version (1.7.1) + patch that correctly supports nexus 3
-# # since an update with it hasn't been released yet. Targeted for 1.7.2
-# mod 'nexus',
-#   :git => 'https://github.com/hubspotdevops/puppet-nexus',
-#   :ref => '7dffd1378f11da7c96122f8175980f7536a3c87f'
-# 
-# inkblot
-# mod 'inkblot/bind', '6.0.1'
 mod 'inkblot/shorewall', '5.1.0'
 # 
 # mod 'jhoblitt/nsstools', '2.0.0'
