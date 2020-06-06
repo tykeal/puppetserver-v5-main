@@ -1,0 +1,21 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.1.0
+    hooks:
+      - id: trailing-whitespace
+
+  - repo: http://github.com/prettier/prettier
+    rev: 2.0.5
+    hooks:
+      - id: prettier
+
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.13.1
+    hooks:
+      - id: gitlint
+
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.1
+    hooks:
+      - id: shellcheck
