@@ -4,7 +4,7 @@ forge 'http://forge.puppetlabs.com'
 #
 # # letsencrypt/dehydrated
 mod 'fraenki/acme', '1.0.5'
-mod 'bzed/dehydrated', '0.1.7'
+#mod 'bzed/dehydrated', '0.1.7'
 #
 # Camptocamp
 # mod 'camptocamp/augeas', '1.5.1'
