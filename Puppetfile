@@ -1,19 +1,20 @@
 forge 'http://forge.puppetlabs.com'
-# 
+#
 # # Modules from the Puppet Forge
-# 
+#
 # # letsencrypt/dehydrated
+mod 'fraenki/acme', '1.0.5'
 mod 'bzed/dehydrated', '0.1.7'
-# 
+#
 # Camptocamp
 # mod 'camptocamp/augeas', '1.5.1'
 # mod 'camptocamp/dell', '0.5.1'
 # mod 'camptocamp/openldap', '1.15.0'
-# mod 'camptocamp/openssl', '1.8.2'
+mod 'camptocamp/openssl', '1.14.0'
 # mod 'camptocamp/postfix', '1.4.0'
 # mod 'camptocamp/puppetserver', '2.1.0'
 mod 'camptocamp/selinux', '0.5.0'
-# 
+#
 # mod 'croddy/make', '0.0.5'
 # mod 'darin/zypprepo', '1.0.2'
 # mod 'dalen/puppetdbquery', '2.2.0'
@@ -35,9 +36,9 @@ mod 'ghoneycutt/types', '1.13.0'
 mod 'ghoneycutt/vim', '2.13.0'
 
 mod 'inkblot/shorewall', '5.1.0'
-# 
+#
 # mod 'jhoblitt/nsstools', '2.0.0'
-# 
+#
 # #mod 'jlcox/gitolite', '1.2.3'
 # # PR#5 has been made to incorporate this work
 # mod 'gitolite',
@@ -59,7 +60,7 @@ mod 'auditd',
 # mod 'users',
 #   :git => 'https://github.com/tykeal/puppet-users.git',
 #   :ref => '47559be0582fe95951507ae4ce1c17b4eb9de907'
-# 
+#
 # mod 'pdxcat/nrpe', '2.1.1'
 
 # Puppet community
@@ -138,7 +139,7 @@ mod 'simp/simplib', '4.2.0'
 # # thias
 # mod 'thias/libvirt', '1.0.0'
 # mod 'thias/sysctl', '1.0.6'
-# 
+#
 # # tykeal
 # #mod 'tykeal/clm', '1.0.0'
 # mod 'clm',
@@ -156,21 +157,21 @@ mod 'simp/simplib', '4.2.0'
 # mod 'zuul',
 #   :git => 'https://github.com/tykeal/puppet-zuul.git'
 # mod 'zack/r10k', '3.2.0'
-# 
+#
 # # fork of herlo/totpcgi that has never hit the forge. Since herlo isn't here
 # # anymore tykeal pulled a fork so we could pin to an LF employee till we can
 # # re-evaluate / get released to the forge
 # mod 'totpcgi',
 #   :git => 'https://github.com/mricon/puppet-totpcgi.git',
 #   :ref => '4c764a6f96e0d3d5d73e5861e214d2fb6d22db45'
-# 
-# 
+#
+#
 # # custom modules
-# 
+#
 # # correct User for gerrit.linuxfoundation.org
 mod 'profile',
   :git => 'https://github.com/tykeal/puppetserver-v5-mod-profile.git'
- 
+
 mod 'role',
   :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git'
 
