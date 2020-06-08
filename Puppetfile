@@ -10,7 +10,13 @@ mod 'fraenki/acme', '1.0.5'
 # mod 'camptocamp/augeas', '1.5.1'
 # mod 'camptocamp/dell', '0.5.1'
 # mod 'camptocamp/openldap', '1.15.0'
-mod 'camptocamp/openssl', '1.14.0'
+#mod 'camptocamp/openssl', '1.14.0'
+# https://github.com/camptocamp/puppet-openssl/pull/112
+# no release of the module since that went in and it's
+# needed
+mod 'openssl',
+  :git => 'https://github.com/camptocamp/puppet-openssl',
+  :ref => '5fe38f9893b881a39bbae5f76f5bdd12eacba261'
 # mod 'camptocamp/postfix', '1.4.0'
 # mod 'camptocamp/puppetserver', '2.1.0'
 mod 'camptocamp/selinux', '0.5.0'
