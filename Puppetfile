@@ -7,7 +7,7 @@ mod 'fraenki/acme', '1.0.5'
 #mod 'bzed/dehydrated', '0.1.7'
 #
 # Camptocamp
-# mod 'camptocamp/augeas', '1.5.1'
+mod 'camptocamp/augeas', '1.9.0'
 # mod 'camptocamp/dell', '0.5.1'
 # mod 'camptocamp/openldap', '1.15.0'
 #mod 'camptocamp/openssl', '1.14.0'
@@ -17,7 +17,7 @@ mod 'fraenki/acme', '1.0.5'
 mod 'openssl',
   :git => 'https://github.com/camptocamp/puppet-openssl',
   :ref => '5fe38f9893b881a39bbae5f76f5bdd12eacba261'
-# mod 'camptocamp/postfix', '1.4.0'
+mod 'camptocamp/postfix', '1.10.0'
 # mod 'camptocamp/puppetserver', '2.1.0'
 mod 'camptocamp/selinux', '0.5.0'
 #
@@ -66,10 +66,14 @@ mod 'auditd',
 # mod 'users',
 #   :git => 'https://github.com/tykeal/puppet-users.git',
 #   :ref => '47559be0582fe95951507ae4ce1c17b4eb9de907'
-#
+
+mod 'oxc/dovecot', '3.0.0'
+
 # mod 'pdxcat/nrpe', '2.1.1'
 
 # Puppet community
+mod 'puppet/alternatives', '3.0.0'
+mod 'puppet/archive', '4.5.0'
 mod 'puppet/epel', '3.0.1'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
@@ -79,6 +83,7 @@ mod 'puppet/r10k', '8.3.0'
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
 mod 'puppetlabs/apt', '7.4.1'
+mod 'puppetlabs/augeas_core', '1.0.5'
 mod 'puppetlabs/concat', '6.2.0'
 mod 'puppetlabs/cron_core', '1.0.4'
 mod 'puppetlabs/firewall', '2.3.0'
@@ -88,6 +93,7 @@ mod 'puppetlabs/host_core', '1.0.3'
 mod 'puppetlabs/inifile', '4.2.0'
 # mod 'puppetlabs/java', '6.2.0'
 # mod 'puppetlabs/java_ks', '1.4.1'
+mod 'puppetlabs/mailalias_core', '1.0.6'
 mod 'puppetlabs/mount_core', '1.0.4'
 # mod 'puppetlabs/mysql', '3.9.0'
 mod 'puppetlabs/ntp', '8.3.0'
