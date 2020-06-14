@@ -188,6 +188,7 @@ mod 'role',
   :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git'
 
 mod 'local_fw',
-  :git => 'https://github.com/tykeal/puppetserver-mod-local_fw.git'
+  :git    => 'https://github.com/tykeal/puppetserver-mod-local_fw.git',
+  :branch => 'v5'
 
 # vim: sw=2 sts=2 ts=2 et :
