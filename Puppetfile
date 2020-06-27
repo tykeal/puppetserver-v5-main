@@ -152,23 +152,10 @@ mod 'simp/simplib', '4.2.0'
 # mod 'thias/libvirt', '1.0.0'
 # mod 'thias/sysctl', '1.0.6'
 #
-# # tykeal
-# #mod 'tykeal/clm', '1.0.0'
-# mod 'clm',
-#   :git => 'https://github.com/tykeal/puppet-clm.git',
-#   :ref => '470980054c29cadd9ba5a125413dfc9f9ad8898b'
+# tykeal
 # mod 'tykeal/gerrit', '1.1.1'
 # mod 'tykeal/ini_config', '1.1.0'
-# mod 'tykeal/jjb', '1.0.2'
-# mod 'tykeal/nagios', '1.0.0'
-# #mod 'tykeal/nodepool', ''
-# mod 'nodepool',
-#   :git => 'https://github.com/tykeal/puppet-nodepool.git'
-# mod 'tykeal/sslmgmt', '1.0.1'
-# #mod 'tykeal/zuul', ''
-# mod 'zuul',
-#   :git => 'https://github.com/tykeal/puppet-zuul.git'
-# mod 'zack/r10k', '3.2.0'
+mod 'tykeal/postgrey', '1.0.0'
 #
 # # fork of herlo/totpcgi that has never hit the forge. Since herlo isn't here
 # # anymore tykeal pulled a fork so we could pin to an LF employee till we can
