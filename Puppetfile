@@ -59,6 +59,8 @@ mod 'auditd',
   :ref => '7e5a7af17b2aa58706b82e68e582679f3b211043'
 # mod 'kemra102/ius', '1.1.0'
 
+mod 'lvicainne/opendkim', '0.2.9'
+
 # mod 'maestrodev/wget', '1.7.3'
 # mod 'mkrakowitzer/deploy', '0.0.3'
 # # point to a git version so we can do some debugging to create some patches
