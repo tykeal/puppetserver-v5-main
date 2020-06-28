@@ -2,14 +2,8 @@ forge 'http://forge.puppetlabs.com'
 #
 # # Modules from the Puppet Forge
 #
-# # letsencrypt/dehydrated
-mod 'fraenki/acme', '1.0.5'
-#mod 'bzed/dehydrated', '0.1.7'
-#
 # Camptocamp
 mod 'camptocamp/augeas', '1.9.0'
-# mod 'camptocamp/dell', '0.5.1'
-# mod 'camptocamp/openldap', '1.15.0'
 #mod 'camptocamp/openssl', '1.14.0'
 # https://github.com/camptocamp/puppet-openssl/pull/112
 # no release of the module since that went in and it's
@@ -18,18 +12,12 @@ mod 'openssl',
   :git => 'https://github.com/camptocamp/puppet-openssl',
   :ref => '5fe38f9893b881a39bbae5f76f5bdd12eacba261'
 mod 'camptocamp/postfix', '1.10.0'
-# mod 'camptocamp/puppetserver', '2.1.0'
 mod 'camptocamp/selinux', '0.5.0'
 #
-# mod 'croddy/make', '0.0.5'
-# mod 'darin/zypprepo', '1.0.2'
-# mod 'dalen/puppetdbquery', '2.2.0'
 mod 'datacentred/external_facts', '1.1.0'
-# mod 'dhoppe/screen', '1.3.1'
-# mod 'dprince/qpid', '1.0.3'
-# mod 'engage/uwsgi', '1.2.0'
-# mod 'garethr/erlang', '0.3.0'
-# mod 'gentoo/portage', '2.3.0'
+
+# used for letsencrypt
+mod 'fraenki/acme', '1.0.5'
 
 # ghoneycutt
 mod 'ghoneycutt/common', '1.9.0'
@@ -41,6 +29,7 @@ mod 'ghoneycutt/pam', '3.5.0'
 mod 'ghoneycutt/types', '1.13.0'
 mod 'ghoneycutt/vim', '2.13.0'
 
+mod 'igromik/clamav', '0.0.1'
 mod 'inkblot/shorewall', '5.1.0'
 #
 # mod 'jhoblitt/nsstools', '2.0.0'
