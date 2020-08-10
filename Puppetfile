@@ -48,7 +48,11 @@ mod 'auditd',
   :ref => '7e5a7af17b2aa58706b82e68e582679f3b211043'
 # mod 'kemra102/ius', '1.1.0'
 
-mod 'LeLutin/spamassassin', '3.0.0'
+#mod 'LeLutin/spamassassin', '3.0.0'
+# Use personal clone until PR #9 gets merged and a new release happens
+mod 'spamassassin',
+  :git => 'https://github.com/tykeal/puppet-spamassassin',
+  :ref => '16a074ba700dfd30ac4f1bde7b53280549cc7c9b'
 mod 'lvicainne/opendkim', '0.2.9'
 
 # mod 'maestrodev/wget', '1.7.3'
