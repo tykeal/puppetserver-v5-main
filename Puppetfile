@@ -73,7 +73,7 @@ mod 'puppet/archive', '4.5.0'
 mod 'puppet/epel', '3.0.1'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
-# mod 'puppet/firewalld', '4.2.4'
+mod 'puppet/nginx', '1.1.0'
 mod 'puppet/r10k', '8.3.0'
 
 # Puppetlabs
