@@ -74,6 +74,7 @@ mod 'puppet/epel', '3.0.1'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
 mod 'puppet/nginx', '1.1.0'
+mod 'puppet/php', '7.1.0'
 mod 'puppet/r10k', '8.3.0'
 
 # Puppetlabs
@@ -148,7 +149,9 @@ mod 'simp/simplib', '4.2.0'
 # # thias
 # mod 'thias/libvirt', '1.0.0'
 # mod 'thias/sysctl', '1.0.6'
-#
+
+mod 'tohuwabohu/roundcube', '3.5.0'
+
 # tykeal
 # mod 'tykeal/gerrit', '1.1.1'
 # mod 'tykeal/ini_config', '1.1.0'
