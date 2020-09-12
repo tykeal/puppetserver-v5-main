@@ -178,4 +178,6 @@ mod 'local_fw',
   :git    => 'https://github.com/tykeal/puppetserver-mod-local_fw.git',
   :branch => 'v5'
 
+mod 'willdurand/composer', '1.2.9'
+
 # vim: sw=2 sts=2 ts=2 et :
