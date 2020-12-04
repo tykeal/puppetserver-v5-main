@@ -81,7 +81,7 @@ mod 'puppet/nginx', '1.1.0'
 mod 'php',
   :git => 'https://github.com/voxpupuli/puppet-php.git',
   :ref => 'df68a3af51d77df22e3ccff3f166d16ebac0a013'
-mod 'puppet/r10k', '8.3.0'
+mod 'puppet/r10k', '9.0.0'
 
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
