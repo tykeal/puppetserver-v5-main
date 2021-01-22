@@ -13,6 +13,7 @@ mod 'openssl',
   :ref => '5fe38f9893b881a39bbae5f76f5bdd12eacba261'
 mod 'camptocamp/postfix', '1.10.0'
 mod 'camptocamp/selinux', '0.5.0'
+mod 'cirrax/opendmarc', '1.0.1'
 #
 mod 'datacentred/external_facts', '1.1.0'
 
