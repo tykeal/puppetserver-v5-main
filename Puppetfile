@@ -163,6 +163,7 @@ mod 'tohuwabohu/roundcube', '3.5.0'
 # mod 'tykeal/gerrit', '1.1.1'
 # mod 'tykeal/ini_config', '1.1.0'
 mod 'tykeal/postgrey', '1.0.0'
+mod 'tykeal/spamass_milter', '1.0.0'
 #
 # # fork of herlo/totpcgi that has never hit the forge. Since herlo isn't here
 # # anymore tykeal pulled a fork so we could pin to an LF employee till we can
