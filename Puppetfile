@@ -162,6 +162,7 @@ mod 'tohuwabohu/roundcube', '3.5.0'
 # tykeal
 # mod 'tykeal/gerrit', '1.1.1'
 # mod 'tykeal/ini_config', '1.1.0'
+mod 'tykeal/nagios', '1.0.0'
 mod 'tykeal/postgrey', '1.0.0'
 mod 'tykeal/spamass_milter', '1.0.0'
 #
