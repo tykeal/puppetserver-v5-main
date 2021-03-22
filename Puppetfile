@@ -27,7 +27,7 @@ mod 'ghoneycutt/hosts', '2.7.0'
 mod 'ghoneycutt/nsswitch', '1.8.0'
 mod 'ghoneycutt/pam', '3.5.0'
 # mod 'ghoneycutt/rpcbind', '1.7.0'
-mod 'ghoneycutt/types', '1.13.0'
+#mod 'ghoneycutt/types', '1.13.0'
 mod 'ghoneycutt/vim', '2.13.0'
 
 mod 'igromik/clamav', '0.0.1'
@@ -139,7 +139,7 @@ mod 'simp/haveged', '0.5.0'
 mod 'simp/simplib', '4.2.0'
 
 mod 'southalc/podman', '0.2.6'
-mod 'southalc/types', '0.3.3'
+#mod 'southalc/types', '0.3.3'
 
 # #mod 'srf/rkhunter', '0.1.4'
 # # temporary override
