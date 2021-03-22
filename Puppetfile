@@ -138,6 +138,8 @@ mod 'saz/timezone', '5.2.1'
 mod 'simp/haveged', '0.5.0'
 mod 'simp/simplib', '4.2.0'
 
+mod 'southalc/podman', '0.2.6'
+
 # #mod 'srf/rkhunter', '0.1.4'
 # # temporary override
 # mod 'rkhunter',
