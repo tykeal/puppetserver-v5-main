@@ -74,7 +74,7 @@ mod 'puppet/archive', '4.5.0'
 mod 'puppet/epel', '3.0.1'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
-mod 'puppet/nginx', '1.1.0'
+mod 'puppet/nginx', '3.0.0'
 #mod 'puppet/php', '7.1.0'
 # point to git version so that we can fix a problem with the config class
 # Commit df68a3af51d77df22e3ccff3f166d16ebac0a013 has been merged, but no
