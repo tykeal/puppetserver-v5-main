@@ -139,7 +139,7 @@ mod 'simp/haveged', '0.5.0'
 mod 'simp/simplib', '4.2.0'
 
 mod 'southalc/podman', '0.2.6'
-#mod 'southalc/types', '0.3.3'
+mod 'southalc/types', '0.3.3'
 
 # #mod 'srf/rkhunter', '0.1.4'
 # # temporary override
