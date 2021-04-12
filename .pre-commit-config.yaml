@@ -5,10 +5,11 @@ repos:
     hooks:
       - id: trailing-whitespace
 
-  - repo: http://github.com/prettier/prettier
-    rev: 2.0.5
+  - repo: https://github.com/prettier/pre-commit
+    rev: v2.1.2
     hooks:
       - id: prettier
+        stages: [commit]
 
   - repo: https://github.com/jorisroovers/gitlint
     rev: v0.13.1
@@ -16,6 +17,6 @@ repos:
       - id: gitlint
 
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.1
+    rev: 2.1.5
     hooks:
       - id: shellcheck
