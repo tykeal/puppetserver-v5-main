@@ -15,7 +15,7 @@ mod 'camptocamp/postfix', '1.11.0'
 mod 'camptocamp/selinux', '0.5.0'
 mod 'cirrax/opendmarc', '1.0.1'
 #
-mod 'datacentred/external_facts', '1.1.0'
+#mod 'datacentred/external_facts', '1.1.0'
 
 # used for letsencrypt
 mod 'fraenki/acme', '1.0.5'
@@ -163,6 +163,7 @@ mod 'southalc/types', '0.3.3'
 mod 'tohuwabohu/roundcube', '3.5.0'
 
 # tykeal
+mod 'tykeal/external_facts', '2.0.1'
 # mod 'tykeal/gerrit', '1.1.1'
 # mod 'tykeal/ini_config', '1.1.0'
 mod 'tykeal/nagios', '1.0.0'
