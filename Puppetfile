@@ -18,7 +18,7 @@ mod 'cirrax/opendmarc', '1.0.1'
 #mod 'datacentred/external_facts', '1.1.0'
 
 # used for letsencrypt
-mod 'fraenki/acme', '1.0.5'
+mod 'fraenki/acme', '2.3.0'
 
 # ghoneycutt
 mod 'ghoneycutt/common', '1.9.0'
