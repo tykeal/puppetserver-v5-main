@@ -6,14 +6,14 @@
 # properly for any SSH checkouts
 
 class { 'r10k':
-  version     => present,
-  sources     => {
-    'puppet'    => {
+  version           => present,
+  sources           => {
+    'puppet' => {
       'remote'  => 'https://github.com/tykeal/puppetserver-v5-main.git',
       'basedir' => "${::settings::codedir}/environments",
       'prefix'  => false,
     },
-    'hiera'     => {
+    'hiera'  => {
       'remote'  => 'https://github.com/tykeal/puppetserver-v5-hiera.git',
       'basedir' => "${::settings::codedir}/hieradata",
       'prefix'  => false,
@@ -21,5 +21,3 @@ class { 'r10k':
   },
   manage_modulepath => false,
 }
-
-/* vim: set ts=2 sw=2 tw=0 et :*/
