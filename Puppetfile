@@ -12,7 +12,6 @@ mod 'camptocamp/augeas', '1.9.0'
 #  :git => 'https://github.com/camptocamp/puppet-openssl',
 #  :ref => '988148afa6d896b378fbea6b219e795285ae4b86'
 mod 'puppet/openssl', '3.1.0'
-mod 'camptocamp/postfix', '1.11.0'
 mod 'camptocamp/selinux', '0.6.0'
 mod 'cirrax/opendmarc', '1.0.1'
 #
@@ -83,6 +82,7 @@ mod 'puppet/php', '10.2.0'
 # mod 'php',
 #   :git => 'https://github.com/voxpupuli/puppet-php.git',
 #   :ref => 'df68a3af51d77df22e3ccff3f166d16ebac0a013'
+mod 'puppet/postfix', '4.4.0'
 mod 'puppet/r10k', '13.0.0'
 
 # Puppetlabs
