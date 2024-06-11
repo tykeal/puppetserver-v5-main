@@ -18,9 +18,6 @@ mod 'cirrax/opendmarc', '1.0.1'
 #
 #mod 'datacentred/external_facts', '1.1.0'
 
-# used for letsencrypt
-mod 'fraenki/acme', '3.0.0'
-
 # ghoneycutt
 mod 'ghoneycutt/common', '1.10.0'
 mod 'ghoneycutt/hosts', '4.0.0'
@@ -55,6 +52,9 @@ mod 'spamassassin',
   :git => 'https://github.com/tykeal/puppet-spamassassin',
   :ref => '16a074ba700dfd30ac4f1bde7b53280549cc7c9b'
 mod 'lvicainne/opendkim', '0.2.9'
+
+# used for letsencrypt
+mod 'markt/acme', '5.0.0'
 
 # mod 'maestrodev/wget', '1.7.3'
 # mod 'mkrakowitzer/deploy', '0.0.3'
