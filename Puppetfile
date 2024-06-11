@@ -8,9 +8,10 @@ mod 'camptocamp/augeas', '1.9.0'
 # https://github.com/voxpupuli/puppet-openssl/pull/135
 # no release of the module since that went in and it's
 # needed
-mod 'openssl',
-  :git => 'https://github.com/camptocamp/puppet-openssl',
-  :ref => '988148afa6d896b378fbea6b219e795285ae4b86'
+#mod 'openssl',
+#  :git => 'https://github.com/camptocamp/puppet-openssl',
+#  :ref => '988148afa6d896b378fbea6b219e795285ae4b86'
+mod 'puppet/openssl', '3.1.0'
 mod 'camptocamp/postfix', '1.11.0'
 mod 'camptocamp/selinux', '0.5.0'
 mod 'cirrax/opendmarc', '1.0.1'
