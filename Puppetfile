@@ -54,6 +54,7 @@ mod 'lvicainne/opendkim', '0.2.9'
 
 # used for letsencrypt
 mod 'markt/acme', '5.0.0'
+mod 'markt/dovecot', '4.2.0'
 
 # mod 'maestrodev/wget', '1.7.3'
 # mod 'mkrakowitzer/deploy', '0.0.3'
@@ -63,7 +64,6 @@ mod 'markt/acme', '5.0.0'
 #   :git => 'https://github.com/tykeal/puppet-users.git',
 #   :ref => '47559be0582fe95951507ae4ce1c17b4eb9de907'
 
-mod 'oxc/dovecot', '3.0.0'
 
 # mod 'pdxcat/nrpe', '2.1.1'
 
