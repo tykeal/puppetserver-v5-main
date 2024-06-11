@@ -11,7 +11,7 @@ defaults:
   datadir: "/etc/puppetlabs/code/hieradata/production"
   lookup_key: eyaml_lookup_key
   options:
-    gpg_gnupghome: "/etc/puppetlabs/gnupg"
+    gpg_gnupghome: "/opt/puppetlabs/server/data/puppetserver/.gnupg"
 hierarchy:
   - name: "Per-node data (yaml version)"
     path: "%{::domain}/%{::hostname}.eyaml"
