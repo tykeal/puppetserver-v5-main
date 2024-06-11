@@ -22,14 +22,14 @@ mod 'cirrax/opendmarc', '1.0.1'
 mod 'fraenki/acme', '3.0.0'
 
 # ghoneycutt
-mod 'ghoneycutt/common', '1.9.0'
-mod 'ghoneycutt/hosts', '2.7.0'
+mod 'ghoneycutt/common', '1.10.0'
+mod 'ghoneycutt/hosts', '4.0.0'
 # mod 'ghoneycutt/nfs', '2.0.0'
 mod 'ghoneycutt/nsswitch', '1.8.0'
-mod 'ghoneycutt/pam', '3.5.0'
+mod 'ghoneycutt/pam', '5.1.0'
 # mod 'ghoneycutt/rpcbind', '1.7.0'
 #mod 'ghoneycutt/types', '1.13.0'
-mod 'ghoneycutt/vim', '2.13.0'
+mod 'ghoneycutt/vim', '4.0.0'
 
 mod 'igromik/clamav', '0.0.1'
 mod 'inkblot/shorewall', '5.1.0'
