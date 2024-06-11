@@ -13,7 +13,7 @@ mod 'camptocamp/augeas', '1.9.0'
 #  :ref => '988148afa6d896b378fbea6b219e795285ae4b86'
 mod 'puppet/openssl', '3.1.0'
 mod 'camptocamp/postfix', '1.11.0'
-mod 'camptocamp/selinux', '0.5.0'
+mod 'camptocamp/selinux', '0.6.0'
 mod 'cirrax/opendmarc', '1.0.1'
 #
 #mod 'datacentred/external_facts', '1.1.0'
