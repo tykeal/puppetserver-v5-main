@@ -4,17 +4,11 @@ forge 'http://forge.puppetlabs.com'
 #
 # Camptocamp
 mod 'camptocamp/augeas', '1.9.0'
-#mod 'camptocamp/openssl', '2.0.0'
-# https://github.com/voxpupuli/puppet-openssl/pull/135
-# no release of the module since that went in and it's
-# needed
-#mod 'openssl',
-#  :git => 'https://github.com/camptocamp/puppet-openssl',
-#  :ref => '988148afa6d896b378fbea6b219e795285ae4b86'
-mod 'puppet/openssl', '3.1.0'
 mod 'camptocamp/selinux', '0.6.0'
 mod 'cirrax/opendmarc', '1.0.1'
-#
+
+mod 'choria-mcollective', '0.14.5'
+
 #mod 'datacentred/external_facts', '1.1.0'
 
 # ghoneycutt
@@ -82,8 +76,10 @@ mod 'puppet/php', '10.2.0'
 # mod 'php',
 #   :git => 'https://github.com/voxpupuli/puppet-php.git',
 #   :ref => 'df68a3af51d77df22e3ccff3f166d16ebac0a013'
+mod 'puppet/openssl', '3.1.0'
 mod 'puppet/postfix', '4.4.0'
 mod 'puppet/r10k', '13.0.0'
+mod 'puppet/systemd', '7.1.0'
 
 # Puppetlabs
 # mod 'puppetlabs/apache', '1.10.0'
@@ -136,8 +132,9 @@ mod 'saz/sudo', '8.0.0'
 mod 'saz/timezone', '5.2.1'
 
 # simp
-mod 'simp/haveged', '0.5.0'
-mod 'simp/simplib', '4.2.0'
+mod 'simp/haveged', '0.14.0'
+mod 'simp/simpkv', '0.13.0'
+mod 'simp/simplib', '4.12.2'
 
 mod 'southalc/podman', '0.2.6'
 mod 'southalc/types', '0.3.3'
