@@ -183,11 +183,11 @@ mod 'tykeal/spamass_milter', '1.0.0'
 #
 # # correct User for gerrit.linuxfoundation.org
 mod 'profile',
-  :git => 'https://github.com/tykeal/puppetserver-v5-mod-profile.git'
+  :git => 'https://github.com/tykeal/puppetserver-v5-mod-profile.git',
   :branch => 'master'
 
 mod 'role',
-  :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git'
+  :git => 'https://github.com/tykeal/puppetserver-v5-mod-role.git',
   :branch => 'master'
 
 mod 'local_fw',
