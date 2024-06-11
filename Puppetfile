@@ -72,7 +72,7 @@ mod 'oxc/dovecot', '3.0.0'
 # Puppet community
 mod 'puppet/alternatives', '3.0.0'
 mod 'puppet/archive', '4.5.0'
-mod 'puppet/epel', '3.0.1'
+mod 'puppet/epel', '5.0.0'
 mod 'puppet/extlib', '5.0.0'
 mod 'puppet/make', '3.0.0'
 mod 'puppet/nginx', '3.0.0'
