@@ -123,13 +123,11 @@ mod 'puppetlabs/vcsrepo', '6.1.0'
 # mod 'saz/memcached', '2.8.1'
 # mod 'saz/resolv_conf', '3.0.5'
 # mod 'saz/rsyslog', '3.5.1'
-mod 'saz/ssh', '6.1.0'
+mod 'saz/ssh', '12.1.0'
 mod 'saz/sudo', '8.0.0'
-# Use an fork until https://github.com/saz/puppet-sudo/issues/250 is fixed
-# mod 'sudo',
-#   :git => 'https://github.com/gcoxmoz/puppet-sudo.git',
-#   :ref => '19f1f113602ea2db15a04890657b942c63590e63'
-mod 'saz/timezone', '5.2.1'
+mod 'saz/timezone', '7.0.0'
+
+mod 'stm-debconf', '6.0.0'
 
 # simp
 mod 'simp/haveged', '0.14.0'
@@ -158,7 +156,7 @@ mod 'southalc/types', '0.3.5'
 # mod 'thias/libvirt', '1.0.0'
 # mod 'thias/sysctl', '1.0.6'
 
-mod 'tohuwabohu/roundcube', '3.5.0'
+mod 'tohuwabohu/roundcube', '3.8.0'
 
 # tykeal
 # mod 'tykeal/external_facts', '2.0.1'
